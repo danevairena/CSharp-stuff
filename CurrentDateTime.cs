@@ -8,7 +8,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
         {
             DateTime dateTime = DateTime.Now;
             Console.WriteLine($"Current date:\n{dateTime.DayOfWeek} {dateTime.Day}/{dateTime.Month}/{dateTime.Year}\n");
-            Console.WriteLine($"Local time:\n{dateTime.Hour}:{dateTime.Minute}");
+            Console.WriteLine($"Local time:\n{dateTime.Hour}:{dateTime.Minute}\n");
         }
     }
 }
